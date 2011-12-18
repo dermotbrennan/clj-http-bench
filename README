@@ -1,13 +1,22 @@
 # clj-http-bench
 
-FIXME: write description
+A very simple HTTP benchmarker tool written in Clojure.
 
 ## Usage
 
-FIXME: write
+ Switches               Default  Desc        
+ --------               -------  ----        
+ -n, --requests         10       Requests    
+ -c, --concurrency      10       Concurrency 
+ -h, --no-help, --help  false    Show help   
+
+
+## Examples
+
+$ lein run -n 100 -c 10 http://github.com
 
 ## License
 
-Copyright (C) 2011 FIXME
+Copyright (C) 2011 Dermot Brennan
 
 Distributed under the Eclipse Public License, the same as Clojure.
